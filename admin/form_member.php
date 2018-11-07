@@ -78,7 +78,7 @@ if ($loggedin = logged_inadmin()) { // Check if they are logged in
 
         $sql_id_member = mysql_query("SELECT *  FROM `member` WHERE `level`='0' ORDER BY `id_member` DESC LIMIT 0,1");
         $row_id_member = mysql_fetch_array($sql_id_member);
-        $id_member = $row_id_member["id_member"] + 1;
+        $id_member = $row_id_member["id_member"];
 
         $queryuser = "INSERT INTO `users` (`id_user`, `username`, `password`, `email`, `group`, `lastvisit`, `online`, `blokir`, `id_member`)
 						VALUES (NULL, '$username', MD5('$password'), '$email', 'member', '', '', 'tidak', '$id_member');";
@@ -250,7 +250,8 @@ if ($loggedin = logged_inadmin()) { // Check if they are logged in
                                 </div>
                                 
                                 <hr>
-                                <button class="btn btn-primary" type="submit" name="' . (isset($_GET['id']) ? "update" : "simpan") . '" value="' . (isset($_GET['id']) ? "Update" : "Simpan") . '">Create a New Account</button>
+                                <a href="list_member.php" class="btn btn-default" name="">Back to List</a>&nbsp;
+                                <button class="btn btn-primary" type="submit" name="' . (isset($_GET['id']) ? "update" : "simpan") . '" value="' . (isset($_GET['id']) ? "Update" : "Simpan") . '">' . (isset($_GET['id']) ? "Update Account" : "Create a New Account") . '</button>
                                 
                             </form>
                         </div>
