@@ -1,0 +1,1 @@
+[12-Oct-2018 17:03:30 Asia/Dili] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/allaboutstream/public_html/sea/web/web/custom/config/configuration.php on line 17
