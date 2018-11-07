@@ -250,7 +250,8 @@ if ($loggedin = logged_inadmin()) { // Check if they are logged in
                                 </div>
                                 
                                 <hr>
-                                <button class="btn btn-primary" type="submit" name="' . (isset($_GET['id']) ? "update" : "simpan") . '" value="' . (isset($_GET['id']) ? "Update" : "Simpan") . '">Create a New Account</button>
+                                <a href="list_member.php" class="btn btn-default" name="">Back to List</a>&nbsp;
+                                <button class="btn btn-primary" type="submit" name="' . (isset($_GET['id']) ? "update" : "simpan") . '" value="' . (isset($_GET['id']) ? "Update" : "Simpan") . '">' . (isset($_GET['id']) ? "Update Account" : "Create a New Account") . '</button>
                                 
                             </form>
                         </div>
