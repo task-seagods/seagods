@@ -127,7 +127,7 @@ $content = '
                         <p>'.$row_member["notelp"].'</p>
                       </td>
 					  <td class="v-align-middle">
-                        <a href="">view</a>
+                        <a href="detail_member.php?id='.$row_member['id_member'].'">view</a>
                       </td>
 					  <td>
 					  <div class="btn-group">

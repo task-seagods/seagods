@@ -78,7 +78,7 @@ if ($loggedin = logged_inadmin()) { // Check if they are logged in
 
         $sql_id_member = mysql_query("SELECT *  FROM `member` WHERE `level`='0' ORDER BY `id_member` DESC LIMIT 0,1");
         $row_id_member = mysql_fetch_array($sql_id_member);
-        $id_member = $row_id_member["id_member"] + 1;
+        $id_member = $row_id_member["id_member"];
 
         $queryuser = "INSERT INTO `users` (`id_user`, `username`, `password`, `email`, `group`, `lastvisit`, `online`, `blokir`, `id_member`)
 						VALUES (NULL, '$username', MD5('$password'), '$email', 'member', '', '', 'tidak', '$id_member');";
