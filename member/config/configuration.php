@@ -4,9 +4,9 @@
 /** DATABASE CONNECTION INFORMATION **/
 	// The information below is here to provide for the database connection at the bottom of this configuration file.
 	// We are using defines. I will be covering a tutorial on at www.pk-tuts.co.uk soon.
-define("DATABASE_LOCATION", "localhost:3307");
-define("DATABASE_USERNAME", "allabout_sea");
-define("DATABASE_PASSWORD", "backupweb");
+define("DATABASE_LOCATION", "localhost");
+define("DATABASE_USERNAME", "root");
+define("DATABASE_PASSWORD", "");
 define("DATABASE_NAME", "allabout_sea");
 define("URLADMIN", "");
 define("URL", "");

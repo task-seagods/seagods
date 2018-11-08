@@ -88,9 +88,11 @@ if ($loggedin = logged_inadmin()) { // Check if they are logged in
                                     </div>
                                     <div class="col-md-8">
                                         <h5>Photo :</h5>
-                                        ' . (isset($_GET['id']) ?
-                                            (file_exists('images/members/' . $data_member['foto']) ?
-                                                '<img src="images/members/' . $data_member["foto"] . '"/>' : "<h5><b>Image does not exists</b></h5>") : "") . '
+                                        <div class="row">
+                                            ' . (isset($_GET['id']) ?
+                                                (file_exists('images/members/' . $data_member['foto']) ?
+                                                    '<img style="width: 95%; height: 100%;" src="images/members/' . $data_member["foto"] . '"/>' : "<h5><b>Image does not exists</b></h5>") : "") . '
+                                        </div>
                                     </div>
                                 </div>
                                 
