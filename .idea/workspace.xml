@@ -29,6 +29,20 @@
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
       </PATH_ELEMENT>
     </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="allabout_sea@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="transaction" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
@@ -53,18 +67,18 @@
       <file leaf-file-name="testing_payment.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/member/testing_payment.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="15" column="4" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="29" selection-end-column="11" />
+            <state relative-caret-position="352">
+              <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="testing_payment_list.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="testing_payment_list.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/member/testing_payment_list.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="18" column="2" lean-forward="true" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+            <state relative-caret-position="374">
+              <caret line="17" column="2" lean-forward="true" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -80,12 +94,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="paypal-canceled.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/member/paypal-canceled.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+      <file leaf-file-name="allabout_sea.transaction" pinned="false" current-in-tab="false">
+        <entry file="dbDummy://dbtable:/a72f5753/2ffa23f6-affb-4043-83ef-36b7820e2e1e/allabout_sea.transaction">
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
@@ -93,10 +112,13 @@
       <file leaf-file-name="testing_payment_process.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/member/testing_payment_process.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="859">
-              <caret line="48" column="41" lean-forward="false" selection-start-line="48" selection-start-column="41" selection-end-line="48" selection-end-column="41" />
+            <state relative-caret-position="459">
+              <caret line="67" column="0" lean-forward="true" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
               <folding>
                 <element signature="e#7#28#0#PHP" expanded="true" />
+                <marker date="1541664616450" expanded="true" signature="1268:1431" ph="INSERT INTO `transaction`... " />
+                <marker date="1541664616450" expanded="true" signature="1268:1485" ph="INSERT INTO `transaction`... " />
+                <marker date="1541664616450" expanded="true" signature="1511:1576" ph="..." />
               </folding>
             </state>
           </provider>
@@ -115,36 +137,11 @@
       <file leaf-file-name="configuration_paypal.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/member/config/configuration_paypal.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+            <state relative-caret-position="242">
+              <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
               <folding>
                 <element signature="e#7#34#0#PHP" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ApiContext.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/paypal/rest-api-sdk-php/lib/PayPal/Rest/ApiContext.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="14" column="16" lean-forward="false" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="allabout_sea.users" pinned="false" current-in-tab="false">
-        <entry file="dbDummy://dbtable:/a72f5753/2ffa23f6-affb-4043-83ef-36b7820e2e1e/allabout_sea.users">
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
@@ -178,10 +175,10 @@
         <option value="$PROJECT_DIR$/member/config/configuration.php" />
         <option value="$PROJECT_DIR$/member/config/configuration_paypal.php" />
         <option value="$PROJECT_DIR$/member/testing_payment.php" />
-        <option value="$PROJECT_DIR$/member/testing_payment_process.php" />
-        <option value="$PROJECT_DIR$/member/testing_payment_list.php" />
         <option value="$PROJECT_DIR$/member/paypal-error.php" />
         <option value="$PROJECT_DIR$/member/paypal-canceled.php" />
+        <option value="$PROJECT_DIR$/member/testing_payment_process.php" />
+        <option value="$PROJECT_DIR$/member/testing_payment_list.php" />
       </list>
     </option>
   </component>
@@ -347,12 +344,12 @@
       <option name="presentableId" value="Default" />
       <updated>1541577580346</updated>
       <workItem from="1541577582692" duration="9943000" />
-      <workItem from="1541633382837" duration="15939000" />
+      <workItem from="1541633382837" duration="20260000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25882000" />
+    <option name="totallyTimeSpent" value="30203000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-320" width="1936" height="1096" extended-state="6" />
@@ -365,7 +362,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3255814" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4278297" sideWeight="0.48416886" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20976116" sideWeight="0.48416886" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -638,6 +635,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="8" column="32" lean-forward="false" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -940,19 +938,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/a72f5753/2ffa23f6-affb-4043-83ef-36b7820e2e1e/allabout_sea.transaction">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="dbDummy://dbtable:/a72f5753/2ffa23f6-affb-4043-83ef-36b7820e2e1e/allabout_sea.category">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1175,25 +1160,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/member/config/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-85">
-          <caret line="85" column="9" lean-forward="false" selection-start-line="85" selection-start-column="9" selection-end-line="85" selection-end-column="9" />
-          <folding>
-            <marker date="1541239119258" expanded="true" signature="1447:1525" ph="SELECT * FRO... sessions" />
-            <marker date="1541239119258" expanded="true" signature="1824:1906" ph="SELECT * FRO... users" />
-            <marker date="1541239119258" expanded="true" signature="2877:2955" ph="SELECT * FRO... sessions" />
-            <marker date="1541239119258" expanded="true" signature="3254:3333" ph="SELECT * FRO... users" />
-            <marker date="1541239119258" expanded="true" signature="4287:4496" ph="SELECT * FRO... sessions" />
-            <marker date="1541239119258" expanded="true" signature="4795:4877" ph="SELECT * FRO... users" />
-            <marker date="1541239119258" expanded="true" signature="5962:6170" ph="SELECT * FRO... sessions" />
-            <marker date="1541239119258" expanded="true" signature="6469:6656" ph="SELECT `user... users" />
-            <marker date="1541239119258" expanded="true" signature="8603:8609" ph="..." />
-            <marker date="1541239119258" expanded="true" signature="11802:11808" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="dbDummy://dbtable:/a72f5753/2ffa23f6-affb-4043-83ef-36b7820e2e1e/allabout_sea.member">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1266,8 +1232,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/member/config/configuration_paypal.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+        <state relative-caret-position="242">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
           <folding>
             <element signature="e#7#34#0#PHP" expanded="true" />
           </folding>
@@ -1282,29 +1248,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/member/testing_payment_list.php">
+    <entry file="file://$PROJECT_DIR$/member/paypal-canceled.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="2" lean-forward="true" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+        <state relative-caret-position="154">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/member/testing_payment_process.php">
+    <entry file="file://$PROJECT_DIR$/member/config/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="859">
-          <caret line="48" column="41" lean-forward="false" selection-start-line="48" selection-start-column="41" selection-end-line="48" selection-end-column="41" />
+        <state relative-caret-position="-86">
+          <caret line="85" column="9" lean-forward="false" selection-start-line="85" selection-start-column="9" selection-end-line="85" selection-end-column="9" />
           <folding>
-            <element signature="e#7#28#0#PHP" expanded="true" />
+            <marker date="1541239119258" expanded="true" signature="1447:1525" ph="SELECT * FRO... sessions" />
+            <marker date="1541239119258" expanded="true" signature="1824:1906" ph="SELECT * FRO... users" />
+            <marker date="1541239119258" expanded="true" signature="2877:2955" ph="SELECT * FRO... sessions" />
+            <marker date="1541239119258" expanded="true" signature="3254:3333" ph="SELECT * FRO... users" />
+            <marker date="1541239119258" expanded="true" signature="4287:4496" ph="SELECT * FRO... sessions" />
+            <marker date="1541239119258" expanded="true" signature="4795:4877" ph="SELECT * FRO... users" />
+            <marker date="1541239119258" expanded="true" signature="5962:6170" ph="SELECT * FRO... sessions" />
+            <marker date="1541239119258" expanded="true" signature="6469:6656" ph="SELECT `user... users" />
+            <marker date="1541239119258" expanded="true" signature="8603:8609" ph="..." />
+            <marker date="1541239119258" expanded="true" signature="11802:11808" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/member/testing_payment.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="4" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="29" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1316,10 +1283,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/member/paypal-canceled.php">
+    <entry file="file://$PROJECT_DIR$/member/testing_payment.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        <state relative-caret-position="352">
+          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/member/testing_payment_process.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="67" column="0" lean-forward="true" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+          <folding>
+            <element signature="e#7#28#0#PHP" expanded="true" />
+            <marker date="1541664616450" expanded="true" signature="1268:1431" ph="INSERT INTO `transaction`... " />
+            <marker date="1541664616450" expanded="true" signature="1268:1485" ph="INSERT INTO `transaction`... " />
+            <marker date="1541664616450" expanded="true" signature="1511:1576" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/a72f5753/2ffa23f6-affb-4043-83ef-36b7820e2e1e/allabout_sea.transaction">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/member/testing_payment2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/member/testing_payment_list.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="2" lean-forward="true" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
           <folding />
         </state>
       </provider>

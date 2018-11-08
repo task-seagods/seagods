@@ -5,6 +5,6 @@
     <title>Document</title>
 </head>
 <body>
-<h4>You Canceled</h4>
+<h4>You Canceled.</h4>
 </body>
 </html>
